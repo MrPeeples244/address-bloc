@@ -44,6 +44,9 @@ module.exports = class MenuController {
   getContactCount(){
     return this.contacts.length;
   }
+  remindMe(){
+    return "Learning is a life-long pursuit";
+  }
   exit(){
     console.log('Thanks for using Address Bloc');
     process.exit();
